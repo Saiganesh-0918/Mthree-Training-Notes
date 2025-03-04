@@ -30,6 +30,8 @@ Mthree-Training/
 │   ├── python_week4_day_1.md
 │   ├── kubernetes_week4_day_2.md
 │
+│── Images/  # Folder containing extracted images from PDFs
+│
 │── README.md  # Repository overview
 ```
 
@@ -51,3 +53,37 @@ Mthree-Training/
 - Advanced Python coding challenges.
 - Kubernetes orchestration and automation.
 
+### Images
+- Extracted images from PDFs related to the training materials.
+
+## 🚀 How to Contribute
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/Mthree-Training.git
+   ```
+2. Navigate to the repository:
+   ```sh
+   cd Mthree-Training
+   ```
+3. Make changes and commit:
+   ```sh
+   git add .
+   git commit -m "Updated training materials"
+   ```
+4. Push the changes:
+   ```sh
+   git push origin main
+   ```
+
+## 📌 Updating the README
+Whenever a new file or folder is added, update the structure manually or by running:
+```sh
+ls -R > README.md
+```
+
+This ensures that the `README.md` stays up-to-date with the latest repository structure.
+
+---
+
+🔹 **Maintained by:** K.V.SAI GANESH  
+🔹 **GitHub Repository:** [Mthree-Training](https://github.com/Saiganesh-0918/Mthree-Training)
