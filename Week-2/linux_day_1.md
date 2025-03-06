@@ -1,71 +1,76 @@
-# Linux Day 1
+LINUX(DAY-1)
 
-## **Installing Linux on Windows using WSL**
-WSL (Windows Subsystem for Linux) allows us to use Linux on Windows.
+Firstly we installed Linux on Windows with WSL. We are installing Linux in Windows with WSL because we can work on both Windows and Linux as per the requirement and in one machine.
 
-### **Installation Steps:**
-```sh
+### Installing WSL on Windows
+```bash
 wsl --install
 ```
-- This enables and installs Ubuntu distribution.
-- Set up a username and password.
-- Install MySQL in Ubuntu:
-  ```sh
-  sudo apt install mysql-server
-  ```
-- To enter MySQL:
-  ```sh
-  sudo mysql
-  ```
+- It will enable and install the features of the Ubuntu distribution.
+- Next, setup the username and password.
+- Now install MySQL in Ubuntu by using the below command.
 
-## **Basic Linux Commands:**
-### **Navigating Directories**
-```sh
-cd /mnt/c/          # Move to C drive
-ls -lrt             # List all files in the current directory
-mkdir Linux         # Create a new Linux directory
-cd LinuxPractise/   # Move to the Linux directory
+```bash
+sudo apt install mysql-server
 ```
 
-### **Creating Files and Directories**
-```sh
-vi a.txt              # Create and open a new file using vi editor
-touch c406.txt        # Create a file using touch command
-touch {1..5}.txt      # Create multiple files at once
+To move to MySQL, we need to run the command:
+```bash
+sudo mysql
 ```
 
-### **Copying and Removing Files**
-```sh
-cp -rf b.txt /mnt/c/                    # Copy b.txt to C drive
-cp -rf a /mnt/c/Users/username/          # Copy entire folder
-rm -rf /mnt/c/Users/srs33/a              # Delete a directory
+### Commands Executed in WSL
+```bash
+cd /mnt/c/  # Move to the C drive
+ls -lrt  # Lists all the files in the current directory
+mkdir Linux  # Creating a new Linux directory
+cd LinuxPractise/  # Moving to the Linux directory
+ls -lrt  # Should return empty
+vi a.txt  # Opens a new file using the vi editor
+ls -lrt  # Checking if the file is created
+mkdir -p a/b/c/d/e/f/g/h/i/j/k/l/m/temp.txt  # Creating nested files
 ```
 
-## **Linux File Permissions**
-Each file has three permission categories:
+### Copy and Remove Commands
+```bash
+cp -rf b.txt /mnt/c/  # Copying b.txt file to C drive
+cp -rf a /mnt/c/Users/username/  # Copies the entire folder and text
+rm -rf /mnt/c/Users/srs33/a  # Deletes the entire file from the directory
+```
+
+### Permissions in Linux
+Permissions are divided into three categories:
 1. **Owner**
 2. **Group**
 3. **Others**
 
-| Permission | Read | Write | Execute |
-|------------|------|-------|---------|
-| **Value**  | 4    | 2     | 1       |
+Each category has three types of permissions:
+- Read (4)
+- Write (2)
+- Execute (1)
 
-### **Modifying Permissions**
-```sh
-chmod -R 777 a  # Gives full permissions to all users
+```bash
+chmod -R 777 a  # Gives permission to all categories
 ```
 
-## **Searching in Linux**
-The `grep` command is used to search for text in files.
-```sh
-grep -Ril "text"    # Search for 'text' in all files recursively
-man grep            # Get detailed documentation on grep
+### Grep Command
+Grep is used to search for a word in the system.
+```bash
+grep -Ril "text"
+```
+- `R` - Recursive search
+- `i` - Case insensitive
+- `l` - Show file name instead of full content
+
+For more details:
+```bash
+man grep
 ```
 
-## **Additional Learnings**
-- **Worked on Linux shell questions on HackerRank**
-- **Troubleshooting WSL installation issues with trainer and friends**
+### Afternoon Session
+- Brushed up on all the topics discussed in the morning.
+- Resolved an issue with my laptop with the help of the trainer and friends.
+- Solved a few basic Linux shell questions on HackerRank.
 
 ### **Summary**
 - Installed and configured Linux on Windows using WSL.

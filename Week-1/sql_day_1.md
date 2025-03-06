@@ -1,55 +1,68 @@
-# SQL Day 1
+SQL(DAY-1)
 
-## SQL - Structured Query Language
-SQL is a structured query language used to store and retrieve data in an organized manner using tables (rows and columns). Operations on data are performed using SQL commands.
+## SQL - Structured Query Language  
+Here the query means questions that are asked by the user to retrieve the data. Language is the word where we are responding back and what type of language it is.
 
-### Types of SQL Commands:
-- **DDL (Data Definition Language)** - Used for defining and modifying database structure.
-  - Commands: `CREATE`, `ALTER`, `DELETE`, `TRUNCATE`
-- **DML (Data Manipulation Language)** - Used for manipulating data in tables.
-  - Commands: `INSERT`, `UPDATE`, `DELETE`
+### What is SQL?  
+SQL is a structured Query language where we can store our data in an organized manner, i.e., in tables. Storing the data in rows and columns of the table. Performing the operations on the data as per the requirement.
 
-### MySQL Workbench Commands:
+In SQL all the operations are carried out using commands. In today's session, I have learned DDL and DML commands.
+
+### DDL - Data Definition Language  
+Data Definition Language is a type where we work on defining the data for our requirement. Apart from defining, we can perform the operations like altering and deleting the data.
+
+The commands used in DDL are Create, Alter, Delete, Truncate.
+
+### DML - Data Manipulation Language  
+Data Manipulation Language is a type where we work on manipulating the data.
+
+The commands used in DML are Insert, Update, Delete.
+
+#### Syntax for creation of database in MySQL workbench:
 ```sql
--- Creating a database
-CREATE DATABASE database_name;
-
--- Using the database
-USE database_name;
-
--- Creating a table
-CREATE TABLE trainee(
-   id INT,
-   name VARCHAR(200),
-   address VARCHAR(200),
-   age INT
+Create database database_name;
+```
+#### To use the created database in MySQL workbench:
+```sql
+Use database_name;
+```
+#### Example:
+```sql
+/* To create database along with table */
+Create database training;
+Use training;
+Create table trainee(
+   id int,
+   name varchar(200),
+   address varchar(200),
+   age int
 );
 
--- Inserting values into the table
-INSERT INTO trainee VALUES (1, 'ABCD', 'PUNE', 20);
+/* To insert values into the table */
+Insert into trainee values(1, 'ABCD', 'PUNE', 20);
 
--- Renaming the table
-RENAME TABLE trainee TO trainees;
+/* To rename the name of table */
+Rename table trainee to trainees;
 
--- Inserting more values
-INSERT INTO trainees VALUES (2, 'BCDE', 'DELHI', 21);
-INSERT INTO trainees VALUES (3, 'CDEF', 'PUNJAB', 22);
-INSERT INTO trainees VALUES (4, 'DEFG', 'AP', 23);
+/* Inserting values after rename */
+Insert into trainees values(2, 'BCDE', 'DELHI', 21);
+Insert into trainees values(3, 'CDEF', 'PUNJAB', 22);
+Insert into trainees values(4, 'DEFG', 'AP', 23);
 
--- Selecting all records
-SELECT * FROM trainees;
+/* To print all the values in the table */
+Select * from trainees;
 ```
 
-### SQL Queries Practiced on HackerRank:
-1. Query all columns for all American cities in the CITY table where `population > 100000` (`CountryCode = 'USA'`).
-2. Query the `NAME` field for American cities where `population > 120000` (`CountryCode = 'USA'`).
-3. Query all columns for every row in the CITY table.
-4. Query all columns for a city in CITY where `ID = 1661`.
-5. Query all attributes of every Japanese city (`CountryCode = 'JPN'`).
+In the afternoon session, we solved a few SQL questions on HackerRank which was very helpful to gain hands-on experience on SQL that we learned in the morning session.
 
-### Additional Learnings:
-- **Shallow Copy vs Deep Copy**
-- **Creating a temporary table from an existing table**
+1. Query all columns for all American cities in the CITY table with populations larger than 100000. The CountryCode for America is USA.
+2. Query the NAME field for all American cities in the CITY table with populations larger than 120000. The CountryCode for America is USA.
+3. Query all columns (attributes) for every row in the CITY table.
+4. Query all columns for a city in CITY with the ID 1661.
+5. Query all attributes of every Japanese city in the CITY table. The COUNTRYCODE for Japan is JPN.
+
+Additionally, I have learned shallow copy and deep copy. Along with that, I have learned how to create the temporary table from the existing table. Finally, I have acquired basic knowledge of SQL and it was a good session on day-1.
+
 
 **Summary:**
 - Gained a basic understanding of SQL commands.
