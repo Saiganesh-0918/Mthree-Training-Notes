@@ -1,4 +1,4 @@
-# Mthree Training Repository
+# Mthree-Training-Notes Repository
 
 This repository contains structured documentation for training materials across different topics. The files are organized into weekly folders, with each folder containing relevant Markdown files.
 
@@ -27,11 +27,15 @@ Mthree-Training/
 │   ├── linux_week3_day_2.md
 │
 │── Week-4/
-│   ├── python_week4_day_1.md
+│   ├── k8s-master-app/
 │   ├── kubernetes_week4_day_2.md
+│   ├── kubernetes_week4_day_3.md
+│   ├── python_week4_day_1.md
+│   ├── python_week4_day_4.md
 │
 │── Images/  # Folder containing extracted images from PDFs
 │
+│── .gitignore
 │── README.md  # Repository overview
 ```
 
@@ -52,6 +56,7 @@ Mthree-Training/
 ### Week-4
 - Advanced Python coding challenges.
 - Kubernetes orchestration and automation.
+- K8s Master App.
 
 ### Images
 - Extracted images from PDFs related to the training materials.
@@ -86,4 +91,4 @@ This ensures that the `README.md` stays up-to-date with the latest repository st
 ---
 
 🔹 **Maintained by:** K.V.SAI GANESH  
-🔹 **GitHub Repository:** [Mthree-Training](https://github.com/Saiganesh-0918/Mthree-Training)
+🔹 **GitHub Repository:** [Mthree-Training-Notes](https://github.com/Saiganesh-0918/Mthree-Training-Notes.git)
