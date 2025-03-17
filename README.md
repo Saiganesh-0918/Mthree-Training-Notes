@@ -42,6 +42,9 @@ Mthree-Training/
 │   ├── Python_week5_day_4.md
 │   ├── python_week5_day_1.md
 │
+│── Week-6/
+│   ├── Grafana_week6_day1.md
+│
 │── .gitignore
 │── README.md  # Repository overview
 ```
@@ -69,6 +72,9 @@ Mthree-Training/
 - Python training sessions.
 - Angular basics and advanced concepts.
 - Node.js and React integration.
+
+### Week-6
+- Grafana setup and monitoring.
 
 ### Images
 - Extracted images from PDFs related to the training materials.
