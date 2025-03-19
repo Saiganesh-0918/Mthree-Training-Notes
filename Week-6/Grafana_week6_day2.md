@@ -7,7 +7,7 @@ We created the dashboard in Grafana and panels yesterday. If we want that dashbo
 ```bash
 kubectl get pods -n monitoring
 ```
-[Linux Commands](../Images/Screenshot%202025-03-18%20130241.png)
+![Linux Commands](../Images/Screenshot%202025-03-18%20130241.png)
 This lists the pods that are running in the Kubernetes cluster.
 
 ---
@@ -18,7 +18,7 @@ This lists the pods that are running in the Kubernetes cluster.
 
 ### 3. Go to the Grafana pod and see the dashboards (which are JSON files) and then copy them to the user.
 
-[Linux Commands](../Images/Screenshot%202025-03-18%20130647.png)
+![Linux Commands](../Images/Screenshot%202025-03-18%20130647.png)
 
 You will see two JSON files in the Grafana dashboards:
 
@@ -57,7 +57,7 @@ This maps your local machine's `localhost:3000` to the Grafana service’s inter
 - Login with your username and password.
 - Go to the dashboard and click on **"Import Dashboard"**.
 
-[Linux Commands](../Images/Screenshot%202025-03-18%20153153.png)
+![Linux Commands](../Images/Screenshot%202025-03-18%20153153.png)
 
 - Upload your JSON file, change the UID, and click on **"Create"**.
 - Finally, you can see your dashboard in the list.
@@ -69,17 +69,17 @@ This maps your local machine's `localhost:3000` to the Grafana service’s inter
 In this case, **Mydashboard** is the imported dashboard. If you go into it, you can see your panels.
 
 ---
-[Linux Commands](../Images/Screenshot%20(110).png)
+![Linux Commands](../Images/Screenshot%20(110).png)
 
-[Linux Commands](../Images/Screenshot%20(111).png)
+![Linux Commands](../Images/Screenshot%20(111).png)
 
-[Linux Commands](../Images/Screenshot%20(112).png)
+![Linux Commands](../Images/Screenshot%20(112).png)
 
-[Linux Commands](../Images/Screenshot%20(113).png)
+![Linux Commands](../Images/Screenshot%20(113).png)
 
-[Linux Commands](../Images/Screenshot%20(114).png)
+![Linux Commands](../Images/Screenshot%20(114).png)
 
-[Linux Commands](../Images/Screenshot%20(115).png)
+![Linux Commands](../Images/Screenshot%20(115).png)
 
 ### 9. Afternoon session:
 - Brushed up on Grafana, Prometheus, Loki, and worked on the project.

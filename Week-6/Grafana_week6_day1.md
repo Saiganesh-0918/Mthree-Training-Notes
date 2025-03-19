@@ -81,21 +81,21 @@ minikube status
 ```bash
 kubectl get nodes
 ```
-[Linux Commands](../Images/Screenshot%202025-03-17%20181109.png)
+![Linux Commands](../Images/Screenshot%202025-03-17%20181109.png)
 ```bash
 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
 chmod +x get_helm.sh
 ./get_helm.sh
 ```
-[Linux Commands](../Images/Screenshot%202025-03-17%20181131.png)
+![Linux Commands](../Images/Screenshot%202025-03-17%20181131.png)
 
 16. Next deleted the kubectl monitoring namespace.
 17. Finally executed the file again.
-[Linux Commands](../Images/Screenshot%202025-03-17%20181158.png)
-[Linux Commands](../Images/Screenshot%202025-03-17%20181224.png)
-[Linux Commands](../Images/Screenshot%202025-03-17%20181246.png)
-[Linux Commands](../Images/Screenshot%202025-03-17%20181306.png)
-[Linux Commands](../Images/Screenshot%20(101).png)
+![Linux Commands](../Images/Screenshot%202025-03-17%20181158.png)
+![Linux Commands](../Images/Screenshot%202025-03-17%20181224.png)
+![Linux Commands](../Images/Screenshot%202025-03-17%20181246.png)
+![Linux Commands](../Images/Screenshot%202025-03-17%20181306.png)
+![Linux Commands](../Images/Screenshot%20(101).png)
 
 ## Creating the Grafana Dashboard
 1. Open Grafana using the exposed URL.
@@ -105,9 +105,9 @@ chmod +x get_helm.sh
 5. From the visualization option, select **"Logs"**.
 6. Set the panel title and click on apply.
 7. In label filters, select **namespace** and give **sample-app** there. In **Line Contains** tab, give the word **ERROR**.
-[Linux Commands](../Images/Screenshot%202025-03-17%20181327.png)
+![Linux Commands](../Images/Screenshot%202025-03-17%20181327.png)
 
-[Linux Commands](../Images/Screenshot%20(106).png)
+![Linux Commands](../Images/Screenshot%20(106).png)
 ## Creating CPU Usage Panel
 1. Select **Prometheus** as a data source.
 2. Switch from builder to code mode.
@@ -118,7 +118,7 @@ sum(rate(container_cpu_usage_seconds_total{namespace="sample-app"}[5m])) by (pod
 4. The query returns the average CPU usage rate (in seconds per second) for each pod within the sample-app namespace over the last 5 minutes.
 5. Set the unit to **Percent (0-100)**.
 
-[Linux Commands](../Images/Screenshot%20(107).png)
+![Linux Commands](../Images/Screenshot%20(107).png)
 
 ## Creating Log Volume Panel
 1. Created another panel in the same dashboard called **Log Volume by Pod**.
@@ -129,5 +129,5 @@ sum(count_over_time({namespace="sample-app"}[5m])) by (pod_name)
 3. Configured dashboard settings and saved the dashboard.
 4. Dashboard now shows 3 panels.
 
-[Linux Commands](../Images/Screenshot%20(108).png)
-[Linux Commands](../Images/Screenshot%20(109).png)
+![Linux Commands](../Images/Screenshot%20(108).png)
+![Linux Commands](../Images/Screenshot%20(109).png)
