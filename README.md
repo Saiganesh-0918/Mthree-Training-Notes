@@ -44,6 +44,7 @@ Mthree-Training/
 |— Week-6/
 |   ├── Grafana_week6_day1.md
 |   └── Grafana_week6_day2.md
+|   └── GRAFANA_Week-6_Day-3.md
 |
 |— .gitignore
 |— README.md  # Repository overview
