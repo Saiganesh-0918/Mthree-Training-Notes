@@ -1,6 +1,6 @@
 # Mthree-Training-Notes Repository
 
-This repository contains structured documentation for training materials across different topics. The files are organized into weekly folders, with each folder containing relevant Markdown files.
+This repository contains structured documentation for training materials across different topics. The files are organized into weekly folders, with each folder containing relevant Markdown files and relevant images.
 
 ## 📂 Repository Structure
 
@@ -43,8 +43,9 @@ Mthree-Training/
 |
 |— Week-6/
 |   ├── Grafana_week6_day1.md
-|   └── Grafana_week6_day2.md
-|   └── GRAFANA_Week-6_Day-3.md
+|   ├── Grafana_week6_day2.md
+|   ├── GRAFANA_Week-6_Day-3.md
+|   ├── Grafana_week-6_day4&5.md
 |
 |— .gitignore
 |— README.md  # Repository overview
@@ -77,9 +78,11 @@ Mthree-Training/
 ### Week-6
 - Grafana setup and monitoring.
 - Advanced Grafana usage and dashboards.
+- **New Update:** Added `Grafana_week-6_day4&5.md` with additional images.
 
 ### Images
 - Extracted images from PDFs related to the training materials.
+- Screenshots related to Grafana Week-6.
 
 ## 🚀 How to Contribute
 1. Clone the repository:
