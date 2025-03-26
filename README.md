@@ -1,54 +1,56 @@
 # Mthree-Training-Notes Repository
 
-This repository contains structured documentation for training materials across different topics. The files are organized into weekly folders, with each folder containing relevant Markdown files and relevant images.
+This repository contains structured documentation for training materials across different topics. The files are organized into weekly folders, with each folder containing relevant Markdown files.
 
 ## 📂 Repository Structure
 
 ```
 Mthree-Training/
-|— Images/
-|
-|— Week-1/
-|   ├── sql_day_1.md
-|   ├── sql_day_2.md
-|   ├── sql_day_3.md
-|   ├── sql_day_4.md
-|   └── sql_day_5.md
-|
-|— Week-2/
-|   ├── linux_day_1.md
-|   ├── linux_day_2.md
-|   ├── linux_day_3.md
-|   ├── linux_day_4.md
-|   └── python_day_1.md
-|
-|— Week-3/
-|   ├── docker_day_1.md
-|   ├── jenkins_day_1.md
-|   ├── kubernetes_day_1.md
-|   └── linux_week3_day_2.md
-|
-|— Week-4/
-|   ├── kubernetes_week4_day_2.md
-|   ├── kubernetes_week4_day_3.md
-|   ├── python_week4_day_1.md
-|   ├── python_week4_day_4.md
-|   └── python_week4_day_5.md
-|
-|— Week-5/
-|   ├── Angular_week5_day_3.md
-|   ├── Node_React_Week5_Day_2.md
-|   ├── Python_week5_day_4.md
-|   └── python_week5_day_1.md
-|
-|— Week-6/
-|   ├── Grafana_week6_day1.md
-|   ├── Grafana_week6_day2.md
-|   ├── GRAFANA_Week-6_Day-3.md
-|   ├── Grafana_week-6_day4&5.md
-|
-|— .gitignore
-|— README.md  # Repository overview
+│── Images/
+│
+│── Week-1/
+│   ├── sql_day_1.md
+│   ├── sql_day_2.md
+│   ├── sql_day_3.md
+│   ├── sql_day_4.md
+│   └── sql_day_5.md
+│
+│── Week-2/
+│   ├── linux_day_1.md
+│   ├── linux_day_2.md
+│   ├── linux_day_3.md
+│   ├── linux_day_4.md
+│   └── python_day_1.md
+│
+│── Week-3/
+│   ├── docker_day_1.md
+│   ├── jenkins_day_1.md
+│   ├── kubernetes_day_1.md
+│   └── linux_week3_day_2.md
+│
+│── Week-4/
+│   ├── kubernetes_week4_day_2.md
+│   ├── kubernetes_week4_day_3.md
+│   ├── python_week4_day_1.md
+│   ├── python_week4_day_4.md
+│   └── python_week4_day_5.md
+│
+│── Week-5/
+│   ├── Angular_week5_day_3.md
+│   ├── Node_React_Week5_Day_2.md
+│   ├── Python_week5_day_4.md
+│   └── python_week5_day_1.md
+│
+│── Week-6/
+│   ├── Grafana_week6_day1.md
+│   ├── GRAFANA_Week-6_Day-3.md
+│
+│── Week-7/
+│   ├── Grafana_Angular_week7_day1&2.md
+│   └── Project_week7_day3.md
+│
+│── .gitignore
+│── README.md  # Repository overview
 ```
 
 ## 📚 Topics Covered
@@ -77,12 +79,13 @@ Mthree-Training/
 
 ### Week-6
 - Grafana setup and monitoring.
-- Advanced Grafana usage and dashboards.
-- **New Update:** Added `Grafana_week-6_day4&5.md` with additional images.
+
+### Week-7
+- Grafana and Angular combined concepts.
+- Project documentation and implementation.
 
 ### Images
 - Extracted images from PDFs related to the training materials.
-- Screenshots related to Grafana Week-6.
 
 ## 🚀 How to Contribute
 1. Clone the repository:
@@ -115,4 +118,3 @@ This ensures that the `README.md` stays up-to-date with the latest repository st
 
 🔹 **Maintained by:** K.V. SAI GANESH  
 🔹 **GitHub Repository:** [Mthree-Training-Notes](https://github.com/Saiganesh-0918/Mthree-Training-Notes.git)
-
