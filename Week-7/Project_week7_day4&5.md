@@ -86,4 +86,4 @@ This architecture ensures a *highly available, fault-tolerant, and self-healing*
 ---
 
 ## 📜 ER Diagram
-![Diagram](Images/ER Diagram.jpg)
+![Diagram](https://github.com/Saiganesh-0918/Mthree-Training-Notes/blob/main/Images/ER%20Diagram.jpg)
